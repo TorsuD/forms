@@ -1,0 +1,45 @@
+.jp__scanDocumentID {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jd__sdi {
+  /* display: flex; */
+  align-items: center;
+  margin-right: 10px;
+}
+
+.jp__currency {
+  /* display: flex; */
+  align-items: center;
+}
+
+.jp__viewDate {
+  align-items: center;
+  /* display: flex; */
+  margin-top: 20px;
+}
+
+.jp__documentRef {
+  /* display: flex; */
+  align-items: center;
+}
+
+.jp__vdButton {
+  background-color: var(--usg-blueHeader);
+}
+
+.jp__vdButton:hover {
+  background-color: var(--usg-blue);
+  transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  .jd__sdi {
+  }
+
+  .jp_formAndButton {
+    display: flex;
+    flex-direction: column;
+  }
+}

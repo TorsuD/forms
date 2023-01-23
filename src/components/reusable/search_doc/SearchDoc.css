@@ -1,0 +1,25 @@
+.sd__container {
+  /* padding: 3px; */
+  /* display: flex; */
+}
+
+@media only screen and (max-width: 980px) {
+  .sd__enabledButton {
+    width: 50px;
+    margin-bottom: 5px;
+  }
+  .sd__container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .sd__inputContainer {
+    text-align: center;
+    /* flex-direction: column; */
+    padding: 10px;
+  }
+
+  .sd__disabledButton {
+    margin-top: 5px;
+  }
+}

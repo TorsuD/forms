@@ -1,0 +1,14 @@
+.cn__container {
+  display: flex;
+  align-items: center;
+}
+
+.cn__container > input {
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cn__container > input {
+    width: 90px;
+  }
+}

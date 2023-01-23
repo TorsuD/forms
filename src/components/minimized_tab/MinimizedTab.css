@@ -1,0 +1,33 @@
+.m__container {
+  background-color: rgb(176, 111, 255);
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 13px;
+}
+
+.m__min {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-radius: 30px !important;
+}
+
+.m__min:hover {
+  background-color: rgb(96, 173, 240) !important;
+  transition: all 0.3s ease;
+}
+
+.display {
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,53 @@
+.date__container {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.d__input {
+  margin-left: 10px;
+}
+
+.d__button:hover {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  background-color: rgb(206, 241, 255);
+  transition: all 0.4s ease;
+}
+
+.sd__button:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: rgb(206, 241, 255);
+  transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 980px) {
+  .d__title {
+    margin-bottom: 10px;
+  }
+
+  .d__input {
+    margin-left: 0;
+  }
+
+  .date__container {
+    /* flex-direction: column; */
+    text-align: center;
+  }
+
+  .d__inputContainer {
+    flex-direction: column;
+  }
+
+  .d__button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 0px; */
+  }
+
+  .d__to {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}

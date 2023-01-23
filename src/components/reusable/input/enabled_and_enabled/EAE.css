@@ -1,0 +1,17 @@
+.eae__container {
+  /* padding: 3px; */
+}
+
+@media only screen and (max-width: 980px) {
+  .eae__title {
+    margin-bottom: 10px;
+  }
+
+  .eae__container {
+    flex-direction: column;
+  }
+
+  .eae__inputContainer {
+    flex-direction: column;
+  }
+}

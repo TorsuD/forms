@@ -1,0 +1,13 @@
+.ei__container {
+  /* display: flex; */
+  align-items: center;
+  /* padding: 3px; */
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 980px) {
+  .ei__container {
+    flex-direction: column;
+    padding: 0;
+  }
+}
