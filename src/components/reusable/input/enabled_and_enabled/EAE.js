@@ -8,8 +8,10 @@ function EAE({ title }) {
       <div
         className="eae__container"
         style={{
+          display: "flex",
+          alignItems: "center",
           flex: 1,
-          marginTop: "5px",
+          marginTop: "10px",
         }}
       >
         <div style={{ flex: 0.4, fontSize: "13px" }} className="eae__title">

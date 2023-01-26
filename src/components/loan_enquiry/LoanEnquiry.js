@@ -259,6 +259,8 @@ function LoanEnquiry() {
                 <div
                   // className="ei__container"
                   style={{
+                    display: "flex",
+                    alignItems: "center",
                     flex: 1,
                     textTransform: "uppercase",
                   }}
@@ -269,7 +271,7 @@ function LoanEnquiry() {
 
                   <Form.Control
                     type="text"
-                    placeholder="Enter Customer name"
+                    placeholder=" Name"
                     size="sm"
                     style={{ flex: 0.6 }}
                     autoComplete={false}
@@ -284,7 +286,11 @@ function LoanEnquiry() {
                 <div style={{ textTransform: "uppercase" }}>
                   <div
                     // className="sd__container"
-                    style={{ flex: 1, alignItems: "center" }}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      flex: 1,
+                    }}
                   >
                     <div style={{ flex: 0.4, fontSize: "13px" }}>Currency</div>
                     <div
@@ -393,6 +399,7 @@ function LoanEnquiry() {
                       // className="sd__container"
                       style={{
                         flex: 1,
+                        display: "flex",
                         alignItems: "center",
                       }}
                     >
@@ -505,15 +512,16 @@ function LoanEnquiry() {
 
                   <Date title={"Effective Date"} />
                   {/* <br /> */}
+
                   <Date title={"Disbursed Date"} />
                   {/* <br /> */}
 
                   <Date title={"Expiry Date"} />
-                  <br />
+                  {/* <br /> */}
 
                   {/*INPUT AND INPUT */}
                   <EAE title={"Days to Expiry"} />
-                  <br />
+                  {/* <br /> */}
 
                   <EAE title={"Days to Next Repay b/n"} />
                   <br />
@@ -523,6 +531,8 @@ function LoanEnquiry() {
                   <div
                     style={{
                       flex: 1,
+                      display: "flex",
+                      alignItems: "center",
                       textTransform: "uppercase",
                     }}
                   >
@@ -532,7 +542,7 @@ function LoanEnquiry() {
 
                     <Form.Control
                       type="text"
-                      placeholder="Enter Customer number"
+                      placeholder="Customer Number"
                       size="sm"
                       style={{ flex: 0.6 }}
                       autoComplete={false}
@@ -590,6 +600,8 @@ function LoanEnquiry() {
                     className="ei__container"
                     style={{
                       flex: 1,
+                      display: "flex",
+                      alignItems: "center",
                     }}
                   >
                     <div style={{ flex: 0.4, textTransform: "uppercase" }}>
@@ -614,6 +626,8 @@ function LoanEnquiry() {
                     className="ei__container"
                     style={{
                       flex: 1,
+                      display: "flex",
+                      alignItems: "center",
                     }}
                   >
                     <div style={{ flex: 0.4, textTransform: "uppercase" }}>
@@ -708,6 +722,7 @@ function LoanEnquiry() {
                       style={{
                         flex: 1,
                         alignItems: "center",
+                        display: "flex",
                       }}
                     >
                       <div
@@ -821,6 +836,7 @@ function LoanEnquiry() {
                         style={{
                           flex: 1,
                           alignItems: "center",
+                          display: "flex",
                         }}
                       >
                         <div style={{ flex: 0.4 }}>RO</div>
@@ -927,6 +943,7 @@ function LoanEnquiry() {
                         style={{
                           flex: 1,
                           alignItems: "center",
+                          display: "flex",
                         }}
                       >
                         <div style={{ flex: 0.4, textTransform: "uppercase" }}>
